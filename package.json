@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "analyze" : "gulp analyze-css"
+    "analyze": "gulp analyze-css"
   },
   "browserslist": [
     "> 1%",
@@ -16,6 +16,7 @@
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^6.7.7",
+    "doiuse": "^2.5.0",
     "gulp": "^3.9.1",
     "gulp-postcss": "^6.3.0",
     "postcss-cli": "^2.6.0",

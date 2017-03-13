@@ -23,3 +23,8 @@
   margin: 0;
 }
 
+body {
+  display: grid;
+  grid-columns: 200px 1% 1fr;
+  grid-rows: auto 15px auto 15px auto;
+}

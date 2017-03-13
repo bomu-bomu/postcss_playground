@@ -25,3 +25,9 @@ h6 {
   margin: 0;
 }
 
+body {
+  display: -ms-grid;
+  display: grid;
+  grid-columns: 200px 1% 1fr;
+  grid-rows: auto 15px auto 15px auto;
+}
