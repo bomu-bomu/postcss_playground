@@ -1,0 +1,9 @@
+{
+  "autoprefixer": {
+    "browserslist": [
+      "last 2 versions",
+      "IOS 7",
+      "not ie <= 8"
+     ]
+  }
+}

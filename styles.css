@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+}
+
+:root {
+  --container-width: 800px;
+}
+
+.container {
+  width: var(--container-width);
+}
+
+@custom-selector :--headings h1, h2, h3, h4, h5, h6;
+
+:--headings {
+  color: mediumblue;
+}
