@@ -4,7 +4,8 @@
   "description": "test postcss",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "analyze" : "gulp analyze-css"
   },
   "browserslist": [
     "> 1%",
@@ -20,6 +21,8 @@
     "postcss-cli": "^2.6.0",
     "postcss-custom-properties": "^5.0.2",
     "postcss-custom-selectors": "^3.0.0",
-    "postcss-reporter": "^3.0.0"
+    "postcss-reporter": "^3.0.0",
+    "stylelint": "^7.9.0",
+    "stylelint-config-standard": "^16.0.0"
   }
 }

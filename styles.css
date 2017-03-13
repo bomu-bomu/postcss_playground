@@ -15,3 +15,11 @@
 :--headings {
   color: mediumblue;
 }
+
+.title,
+.content {
+  background: #fff;
+  font-size: 0.9em;
+  margin: 0;
+}
+
