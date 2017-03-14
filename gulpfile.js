@@ -10,6 +10,7 @@ var doiuse = require('doiuse')
 var immutableCss = require('immutable-css')
 var cssstat = require('postcss-cssstats')
 var listSelector = require('list-selectors').plugin
+var cssnano = require('cssnano')
 
 gulp.task('analyze-css', function () {
   return gulp.src('*.css')
@@ -24,6 +25,7 @@ gulp.task('analyze-css', function () {
       autoprefixer(),
       custom_properties(),
       custom_selectors(),
+      cssnano(),
       //cssstat(
       //  function(stats) {
       //    console.log(stats);

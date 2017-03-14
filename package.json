@@ -16,6 +16,7 @@
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^6.7.7",
+    "cssnano": "^3.10.0",
     "doiuse": "^2.5.0",
     "gulp": "^3.9.1",
     "gulp-postcss": "^6.3.0",
